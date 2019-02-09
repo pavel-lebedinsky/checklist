@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const port = process.env.SERVER_PORT || '3000';
 
-app.get('/', function(req, res) {
+app.use(express.static('static'));
+
+app.get('/api', function(req, res) {
   res.send('running...');
 });
 

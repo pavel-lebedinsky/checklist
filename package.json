@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start-dev": "./node_modules/.bin/nodemon index.js localhost 3000",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
@@ -20,5 +21,9 @@
   "homepage": "https://github.com/pavel-lebedinsky/checklist#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "nodemon": "^1.18.9"
   }
 }
