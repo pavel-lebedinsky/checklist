@@ -1,0 +1,25 @@
+{
+  "name": "@checklist/checklist-models-mongo",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "private": true,
+  "main": "src/bin/www",
+  "scripts": {
+    "start": "node src/bin/www",
+    "dev": "nodemon src/bin/www | bunyan",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Pavel Lebiadzinski <paul.lebedinsky@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavel-lebedinsky/checklist/issues"
+  },
+  "dependencies": {
+    "mongoose": "^5.4.16"
+  },
+  "homepage": "https://github.com/pavel-lebedinsky/checklist/tree/master/packages/models-mongo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-lebedinsky/checklist.git"
+  }
+}

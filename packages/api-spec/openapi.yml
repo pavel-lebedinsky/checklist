@@ -400,7 +400,6 @@ components:
       properties:
         id:
           type: integer
-          format: int64
         username:
           type: string
         firstName:
@@ -415,5 +414,4 @@ components:
           type: string
         userStatus:
           type: integer
-          format: int32
           description: User Status      

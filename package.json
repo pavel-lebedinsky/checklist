@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "start-dev": "./node_modules/.bin/nodemon index.js localhost 3000",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "npx lerna clean --yes && npx lerna bootstrap"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "gulp": "^4.0.0",
+    "lerna": "^3.11.0",
     "nodemon": "^1.18.9"
   }
 }

@@ -1,0 +1,21 @@
+version: "3"
+services:
+  mongodb:
+    build: 
+      context: ./docker/mongodb
+      dockerfile: Dockerfile
+    volumes: 
+      - ./docker/mongodb/data:/data/db
+    ports:
+      - 27017:27017
+  api:
+    build: 
+      context: ./packages/api-express
+      dockerfile: ../../docker/api/Dockerfile
+    volumes: 
+      - ./packages/api-express:/home/node/app
+    depends_on: 
+      - mongodb  
+    ports: 
+      - 8080:3000
+

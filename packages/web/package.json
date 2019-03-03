@@ -1,0 +1,25 @@
+{
+  "name": "@checklist/checklist-web",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js localhost 3000",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Pavel Lebiadzinski <paul.lebedinsky@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavel-lebedinsky/checklist/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "homepage": "https://github.com/pavel-lebedinsky/checklist/tree/master/packages/web#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-lebedinsky/checklist.git"
+  }
+}
